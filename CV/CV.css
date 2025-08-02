@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* Navbar styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #14213d;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: #444444 0px 2px 5px;
+  z-index: 1000;
+}
+.navbar ul a {
+  display: block;
+}
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.navbar ul a:hover {
+  background-color: #fca311;
+  border-radius: 10px;
+  color: #14213d;
+}
+
+.nav-links {
+  background-color: #14213d;
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  position: absolute;
+  top: 58px;
+  width: 100%;
+  left: 0;
+  align-items: center;
+}
+.nav-links li {
+  list-style: none;
+}
+
+.logo {
+  font-size: 25px;
+  display: flex;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0px 10px;
+}
+
+.navbar .menu-toggle:checked ~ .nav-links {
+  max-height: 200px;
+}
+
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    max-height: none;
+    position: static;
+    width: auto;
+  }
+}
+/* CV section styles */
+.container {
+  display: flex;
+  margin: 5%;
+  padding: 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.container h1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+.container h2 {
+  padding: 20px;
+}
+.container p {
+  padding: 0 20px;
+}
+.container ul {
+  padding: 0 20px;
+}
+
+.section-container {
+  display: flex;
+  padding: 20px 20px 0 20px;
+  flex-direction: column;
+}
+.section-container div {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #14213d;
+  border-right: 1px solid #14213d;
+  padding-bottom: 10px;
+}
+
+.endbar {
+  display: flex;
+  padding: 0 20px 20px 20px;
+  gap: 10px;
+  justify-content: center;
+}
+.endbar div {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #14213d;
+  border-right: 1px solid #14213d;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 10%;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .endbar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section-container {
+    flex: 3;
+    display: flex;
+  }
+}/*# sourceMappingURL=CV.css.map */
