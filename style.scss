@@ -227,6 +227,10 @@ $secondary-color: #fca311;
 .social-icons {
     display: flex;
     gap: 10px;
-    color: #ffffff;
     cursor: pointer;
+
+    a{
+        color: #ffffff;
+        font-size: 24px;
+    }
 }
