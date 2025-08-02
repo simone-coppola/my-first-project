@@ -192,6 +192,10 @@
   .Paragraph-ComingSoon {
     font-size: 20px;
   }
+  .home-content {
+    width: 30%;
+    padding: 30px;
+  }
 }
 /* Footer styles */
 .footer-content {
