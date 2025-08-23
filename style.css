@@ -134,7 +134,7 @@
   padding: 10px 20px;
   width: auto;
   background-color: #fca311;
-  margin: 30px 15% 0 15%;
+  margin: 0px 15%;
   border-radius: 10px;
 }
 
@@ -197,6 +197,45 @@
     padding: 30px;
   }
 }
+.skills-section h1 {
+  color: #14213d;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 10px 20px;
+  width: auto;
+  background-color: #fca311;
+  margin: 30px 15% 0 15%;
+  border-radius: 10px;
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+.skills-icons i {
+  font-size: 50px;
+}
+.skills-icons .fa-html5 {
+  color: #e34c26;
+}
+.skills-icons .fa-css3-alt {
+  color: #264de4;
+}
+.skills-icons .fa-bootstrap {
+  color: #563d7c;
+}
+.skills-icons .fa-git-alt {
+  color: #f34f29;
+}
+.skills-icons .fa-github {
+  color: #333;
+}
+
 /* Footer styles */
 .footer-content {
   display: flex;

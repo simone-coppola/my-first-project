@@ -145,7 +145,7 @@ $secondary-color: #fca311;
     padding: 10px 20px;
     width: auto;
     background-color: $secondary-color;
-    margin: 30px 15% 0 15%;
+    margin: 0px 15%;
     border-radius: 10px;
 }
 
@@ -212,6 +212,50 @@ $secondary-color: #fca311;
     
 }
 
+.skills-section h1{
+    color: $primary-color;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 20px;
+    width: auto;
+    background-color: $secondary-color;
+    margin: 30px 15% 0 15%;
+    border-radius: 10px;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+
+    i {
+        font-size: 50px;
+    }
+
+    .fa-html5 {
+        color: #e34c26;
+    }
+
+    .fa-css3-alt {
+        color: #264de4;
+    }
+
+    .fa-bootstrap {
+        color: #563d7c;
+    }
+
+    .fa-git-alt {
+        color: #f34f29;
+    }
+
+    .fa-github {
+        color: #333;
+    }
+}
 /* Footer styles */
 
 .footer-content {
